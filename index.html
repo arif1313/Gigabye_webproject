@@ -16,106 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
     <!-- font -->
-    <style>
-        .font_poppiens {
-            font-family: 'Poppins', sans-serif;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        header,
-        main,
-        footer {
-            margin: 2rem 0rem;
-        }
-
-        .navbar {
-            border-radius: 0.5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 8px;
-            background-color: #ACC8E5;
-
-
-        }
-
-        .menu-horizontal {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #000000;
-            padding: 0rem 0.25rem;
-
-        }
-
-        .menu_top {
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .logo {
-            width: 2rem;
-            height: 2rem;
-        }
-
-        .hearotitle h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 1.25rem;
-        }
-
-        /* mb-5 text-xl font-medium */
-        .hearotitle p {
-            margin-bottom: 1.25rem;
-            font-size: 1.25rem;
-            font-weight: 800;
-
-        }
-
-        .shopnowbtn {
-            background-color: dodgerblue;
-            color: white;
-            font-size: 1.25rem;
-            font-weight: 800;
-            border: none;
-        }
-
-        hover::shopnowbtn {
-            background-color: #ACC8E5;
-            color: bisque;
-        }
-
-        .carosolSection {
-            margin-bottom: 6.125rem;
-        }
-
-        .card_div {
-            width: auto;
-            height: auto;
-            background-color: #d4dee9;
-            border-radius: 0.5rem;
-            padding: 3rem;
-
-        }
-
-        .card_img {
-            width: 7rem;
-            height: 7rem;
-        }
-
-        .img_div {
-            display: flex;
-            justify-content: center;
-        }
-
-        .dispalytite {
-            font-size: 3rem;
-            font-weight: 800;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-    </style>
 
 </head>
 
@@ -140,8 +42,8 @@
                 <div class="navbar-centerhidden hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="shop.html">Shop</a></li>
                         <li class="" tabindex="0">
                             <details>
                                 <summary>Products</summary>
@@ -161,7 +63,7 @@
 
             <div>
                 <div class="hidden lg:flex">
-                    <button class="btn btn-active btn-link"> <a href="./index1.html">login</a></button>
+                    <button class="btn btn-active btn-link"> <a href="./login.html">login</a></button>
                 </div>
                 <div class="hidden lg:flex">
                     <button class="btn btn-sm text-[#2D3171]">Acount</button>
@@ -194,8 +96,8 @@
                             </li>
                             
                             <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="shop.html">Shop</a></li>
                             <li class="" tabindex="0">
                                 <details>
                                     <summary>Products</summary>
@@ -1354,9 +1256,9 @@
             </a>
         </div>
         <div class="grid  grid-cols-3 lg:grid-flow-col gap-10 text-white">
-            <a class="link link-hover">Home</a>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Shop</a>
+            <a class="link link-hover" href="#">Home</a>
+            <a class="link link-hover" href="about.html">About us</a>
+            <a class="link link-hover" href="shop.html">Shop</a>
             <a class="link link-hover"> Support</a>
         </div>
         <div>
